@@ -1,0 +1,54 @@
+import time
+import os
+import sys
+import platform
+#These are the required modules
+
+
+time.sleep(1); print("NO ERRORS\n")
+#If users sees this, there is no issues
+
+
+os = platform.system()
+if os == "Windows":
+	print("OPERATING SYSTEM OWNER: MICROSOFT | WINDOWS-OS")
+elif os == "Darwin":
+	print("OPERATING SYSTEM OWNER: APPLE COMPUTER, INC. | MACOS")
+elif os == "Linux":
+	print("OPERATING SYSTEM OWNER: OPEN SOURCE OS | LINUX KERNEL")
+elif os in ["FreeBSD", "OpenBSD", "NetBSD"]:
+	print("OPERATING SYSTEM OWNER: OPEN SOURCE OS | BSD")
+elif os == "iOS":
+	print("UNKNOWN OPERATING SYSTEM DETECTED. PROGRAM MAY NOT RUN EFFIECIENTLY")
+
+
+print("THE GOLD WAY")
+print("Copyright Void Studios 2026")
+print("ENJOY...\n")
+
+
+print("You enter the school. You see three paths.")
+
+
+time.sleep(0.5); print("1. Library.")
+time.sleep(0.5); print("2. Cafeteria")
+time.sleep(0.5); print("3. Auditorium")
+time.sleep(0.5); print("4. END IT ALL")
+i = input("[INPUT] ").upper()
+
+if i == "E":
+	sys.exit()
+
+if i == "1":
+	print("\nYou enter the library. You fire the rifle, shot after shot ringing out, bodies falling and crying can be heard...")
+
+if i == "2":
+	print("\nYou enter the cafeteria... There are many... FIRE")
+
+if i == "3":
+	print("\nYou enter the auditorium, opening fire on everyone... Five down so far....")
+
+if i == "4":
+	print("You point your pistol at yourself...")
+	time.sleep(2); print("THE GUN FIRES")
+	sys.exit()
