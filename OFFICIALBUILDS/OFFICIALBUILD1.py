@@ -19,7 +19,9 @@ elif os == "Linux":
 elif os in ["FreeBSD", "OpenBSD", "NetBSD"]:
 	print("OPERATING SYSTEM OWNER: OPEN SOURCE OS | BSD")
 elif os == "iOS":
-	print("UNKNOWN OPERATING SYSTEM DETECTED. PROGRAM MAY NOT RUN EFFIECIENTLY")
+	print("OPERATING SYSTEM OWNER: APPLE COMPUTER, INC. | iOS")
+elif os not in ["Windows", "Darwin", "Linux", "iOS", "FreeBSD", "OpenBSD", "NetBSD"]:
+      print("UNKNOWN OPERATING SYSTEM || REPORT YOUR OPERATING SYSTEM TO DEVELOPER FOR INTEGRATION.")
 
 
 print("THE GOLD WAY")
