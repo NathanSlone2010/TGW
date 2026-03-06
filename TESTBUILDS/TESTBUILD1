@@ -1,0 +1,55 @@
+import time
+import os
+import sys
+import platform
+#These are the required modules
+
+
+time.sleep(1); print("NO ERRORS\n")
+#If users sees this, there is no issues
+
+
+os = platform.system()
+if os == "Windows":
+	print("OPERATING SYSTEM OWNER: MICROSOFT | WINDOWS-OS")
+elif os == "Darwin":
+	print("OPERATING SYSTEM OWNER: APPLE COMPUTER, INC. | MACOS")
+elif os == "Linux":
+	print("OPERATING SYSTEM OWNER: OPEN SOURCE OS | LINUX KERNEL")
+elif os in ["FreeBSD", "OpenBSD", "NetBSD"]:
+	print("OPERATING SYSTEM OWNER: OPEN SOURCE OS | BSD")
+elif os == "iOS":
+	print("UNKNOWN OPERATING SYSTEM DETECTED. PROGRAM MAY NOT RUN EFFIECIENTLY")
+
+
+print("THE EXECUTION")
+print("Copyright Void Studios 2026")
+print("ENJOY...\n")
+
+
+print("You just shot President Alexander Norvinsky.. Police are on the way. You have to guess the right directions...")
+
+
+while True:
+	time.sleep(0.5); print("1. The left window.")
+	time.sleep(0.5); print("2. The door")
+	time.sleep(0.5); print("3. Stay")
+	time.sleep(0.5); print("4. END IT ALL")
+	i = input("[INPUT] ").upper()
+	if i == "E":
+		break
+	if i == "1":
+		print("\nYou jump out of the window, landing in a pile of trash. The sirens get closer...")
+	if i == "2":
+		print("\nYou barge through the door, running out the front. A man, who seemingly knew you were an assassin tackles you...")
+		print("YOU HAVE BEEN CAUGHT")
+		break
+	if i == "3":
+		print("\nYou stay, the sirens grow... They barge through, guns pointed at you..")
+		print("YOU HAVE BEEN CAUGHT")
+		break
+	if i == "4":
+		print("You point your pistol at yourself...")
+		time.sleep(2); print("THE GUN FIRES")
+		time.sleep(4.5); print("CANON ENDING")
+		break
