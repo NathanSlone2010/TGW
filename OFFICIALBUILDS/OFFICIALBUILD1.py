@@ -149,3 +149,29 @@ if choice5 == "4":
 	print("You point the gun at your temple. The gun goes off...")
 	sys.exit()
 #--END OF CHOICE SET 5---
+
+
+time.sleep(0.5); print("1. Surrender")
+time.sleep(0.5); print("2. Escape")
+time.sleep(0.5); print("3. END IT ALL")
+choice6 = input("[INPUT] ").upper()
+
+
+#---START OF CHOICE SET 6---
+if choice6 == "E":
+	sys.exit()
+
+if choice6 == "1":
+	print("You throw the gun down. Your partner argues with you not to exit.. You leave, the police grabs and forces you to the ground, and handcuffs you... [How pathetic..]")
+	sys.exit()
+
+if choice6 == "2":
+	print("You and your partner runs out the back into the woods, police chases you, but as you go deeper into the woods.. The police loosese you and your partner")
+	sys.exit()
+
+if choice6 == "3":
+	print("You and your partner decide that is time... You and your partner pulls out the homemade poisions... 'Farewell...' you say to your partner...")
+	print("THE CANON ENDING")
+	print("UNLOCKED: https://shorturl.at/rrB0q | DEVELOPER'S JOURNAL")
+	sys.exit()
+	
