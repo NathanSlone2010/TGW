@@ -25,9 +25,9 @@ elif os not in ["Windows", "Darwin", "Linux", "iOS", "FreeBSD", "OpenBSD", "NetB
 #OS-recognition of users
 
 
-print("THE GOLD WAY")
-print("Copyright Void Studios 2026")
-print("ENJOY...\n")
+print("BLOOD & POWDER")
+time.sleep(0.5); print("Copyright Void Studios 2026")
+time.sleep(0.5); print("ENJOY...\n")
 #The introduction
 
 
