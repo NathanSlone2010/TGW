@@ -175,4 +175,4 @@ if choice6 == "3":
 	print("THE CANON ENDING")
 	print("UNLOCKED: https://shorturl.at/rrB0q | DEVELOPER'S JOURNAL")
 	
-print("This game is dedicated to Dylan Klebolds, the Abandoned Shepherd of Truth. Eric Harris, the Showman of Truth.”)
+print("This game is dedicated to Dylan Klebolds, the Abandoned Shepherd of Truth. Eric Harris, the Showman of Truth.")
