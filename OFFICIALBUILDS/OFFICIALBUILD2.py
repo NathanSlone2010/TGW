@@ -202,9 +202,9 @@ while True:
 
 	if choice6 == "3":
 		print("You and your partner decide that is time... You and your partner pulls out the homemade poisions... 'Farewell...' you say to your partner...")
-		print("THE CANON ENDING")
+		print("THE CANON ENDING\n")
 		print("UNLOCKED: https://shorturl.at/rrB0q | DEVELOPER'S JOURNAL")
 
-		time.sleep(0.5); print("This game is dedicated to Dylan Klebolds, the Abandoned Shepherd of Truth. Eric Harris, the Showman of Truth.")
+		time.sleep(0.5); print("\nThis game is dedicated to Dylan Klebolds, the Abandoned Shepherd of Truth. Eric Harris, the Showman of Truth.")
 		break
 #---END OF CHOICE SET 6 / GAME---
