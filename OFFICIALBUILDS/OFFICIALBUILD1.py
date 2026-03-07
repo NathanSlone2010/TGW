@@ -26,6 +26,7 @@ elif os not in ["Windows", "Darwin", "Linux", "iOS", "FreeBSD", "OpenBSD", "NetB
 
 
 print("BLOOD & POWDER")
+print("\nRest in Peace Eric Harris, Dylan Klebolds. The only ones brave enough to say the truth to everyone\n")
 time.sleep(0.5); print("Copyright Void Studios 2026")
 time.sleep(0.5); print("ENJOY...\n")
 #The introduction
