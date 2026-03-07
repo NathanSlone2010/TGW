@@ -40,8 +40,6 @@ while True:
 	time.sleep(0.5); print("3. Auditorium")
 	choice1 = input("[INPUT] ").upper()
 
-	if choice1 == "E":
-		break
 
 	if choice1 == "1":
 		print("\nYou enter the library. You fire the rifle, shot after shot ringing out, bodies falling and crying can be heard...")
@@ -55,7 +53,7 @@ while True:
 	if choice1 in ["1", "2", "3", "E"]:
 		break
 
-	if choice1 not in ["1", "2", "3", "E"]:
+	if choice1 not in ["1", "2", "3"]:
 		print("PICK A DAMN CHOICE")
 #---END OF CHOICE SET 1---
 
@@ -68,8 +66,6 @@ while True:
 	time.sleep(0.5); print("4. END IT ALL")
 	choice2 = input("[INPUT] ").upper()
 
-	if choice2 == "E":
-		break
 
 	if choice2 == "1":
 		print("\nYou enter the halls.. You slowly walk down them, gunning down everyone, and checking rooms.. Surprise you scream at a target, who is hiding from you. The bullet hits her head, splashing blood onto your face")
@@ -87,7 +83,7 @@ while True:
 	if choice2 in ["1", "2", "3", "4", "E"]:
 		break
 
-	if choice2 not in ["1", "2", "3", "4", "E"]:
+	if choice2 not in ["1", "2", "3", "4"]:
 		print("CHOICE. NOW.")
 #--END OF CHOICE SET 2---
 
@@ -100,8 +96,6 @@ while True:
 	time.sleep(0.5); print("4. Force Staff to execute the Students")
 	choice3 = input("[INPUT] ").upper()
 
-	if choice3 == "E":
-		break
 
 	if choice3 == "1":
 		print("You point the gun at the staff.. They beg, they plea.. You pull the trigger, the gun fires off... Bodies fall..")
@@ -115,10 +109,10 @@ while True:
 	if choice3 == "4":
 		print("You grab the science teacher, forcing the gun in their hand, and forcing their finger on the trigger. You press their finger down causing it to go off, killing one of the students.. You shoot the rest while your partner uses a knife to execute the students..")
 
-	if choice3 in ["1", "2", "3", "4", "E"]:
+	if choice3 in ["1", "2", "3", "4"]:
 		break
 
-	if choice3 not in ["1", "2", "3", "4", "E"]:
+	if choice3 not in ["1", "2", "3", "4"]:
 		print("YOU HAVE NOT MADE A CHOICE")
 #---END OF CHOICE SET 3---
 
@@ -130,8 +124,6 @@ while True:
 	time.sleep(0.5); print("3. Don't attack the police")
 	choice4 = input("[INPUT] ").upper()
 
-	if choice4 == "E":
-		break
 
 	if choice4 == "1":
 		print("You go to the roof, your partner stays at the bottom. Firing off the roof, you hit 4 cops, and 2 SWAT officers. They return fire, but miss the shots, you laugh, deciding to go return to your partner")
@@ -142,11 +134,11 @@ while True:
 	if choice4 == "3":
 		print("You and your partner decides not to attack the police, focusing on those stuck inside with you...")
 
-	if choice4 in ["1", "2", "3", "E"]:
+	if choice4 in ["1", "2", "3"]:
 		break
 
-	if choice4 not in ["1", "2", "3", "E"]:
-		print("CHOICES, CHOICE.. MAKE ONE, BEFORE I KILL YOU!")
+	if choice4 not in ["1", "2", "3"]:
+		print("CHOICES, CHOICE.. MAKE ONE!")
 #---END OF CHOICE SET 4---
 
 
@@ -158,8 +150,6 @@ while True:
 	time.sleep(0.5); print("4. END IT ALL")
 	choice5 = input("[INPUT] ").upper()
 
-	if choice5 == "E":
-		break
 
 	if choice5 == "1":
 		print("You drag 3 corpses to the roof, throwing them off. Everyone screams in fear and disgust.")
@@ -174,10 +164,10 @@ while True:
 		print("You point the gun at your temple. The gun goes off...")
 		break
 
-	if choice5 in ["1", "2", "3", "4", "E"]:
+	if choice5 in ["1", "2", "3", "4"]:
 		break
 
-	if choice5 not in ["1", "2", "3", "4", "E"]:
+	if choice5 not in ["1", "2", "3", "4"]:
 		print("MAKE A FUCKING CHOICE!")
 #---END OF CHOICE SET 5---
 
@@ -189,8 +179,6 @@ while True:
 	time.sleep(0.5); print("3. END IT ALL")
 	choice6 = input("[INPUT] ").upper()
 
-	if choice6 == "E":
-		break
 
 	if choice6 == "1":
 		print("You throw the gun down. Your partner argues with you not to exit.. You leave, the police grabs and forces you to the ground, and handcuffs you... [How pathetic..]")
@@ -207,4 +195,7 @@ while True:
 
 		time.sleep(0.5); print("\nThis game is dedicated to Dylan Klebolds, the Abandoned Shepherd of Truth. Eric Harris, the Showman of Truth.")
 		break
+		
+	if choice6 not in ["1", "2", "3"]:
+		print("Make a choice. There is no turning back at this stage.")
 #---END OF CHOICE SET 6 / GAME---
