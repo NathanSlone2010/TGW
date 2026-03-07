@@ -102,3 +102,50 @@ if choice3 == "3":
 if choice3 == "4":
 	print("You grab the science teacher, forcing the gun in their hand, and forcing their finger on the trigger. You press their finger down causing it to go off, killing one of the students.. You shoot the rest while your partner uses a knife to execute the students..")
 #---END OF CHOICE SET 3---
+
+
+time.sleep(0.5); print("1. Go to the Rooftop")
+time.sleep(0.5); print("2. Shoot through the windows")
+time.sleep(0.5); print("3. Don't attack the police")
+choice4 = input("[INPUT] ").upper()
+
+
+#--START OF CHOICE SET 4---
+if choice4 == "E":
+	sys.exit()
+
+if choice4 == "1":
+	print("You go to the roof, your partner stays at the bottom. Firing off the roof, you hit 4 cops, and 2 SWAT officers. They return fire, but miss the shots, you laugh, deciding to go return to your partner")
+
+if choice4 == "2":
+	print("You and your partner shoots through the windows. A brave yet dumb student grabs you, your partner pressing the barrel into their neck. They back off of you and your partner shoots them in the throat...")
+
+if choice4 == "3":
+	print("You and your partner decides not to attack the police, focusing on those stuck inside with you...")
+#--END OF CHOICE SET 4---
+
+
+time.sleep(0.5); print("1. Push corpses off the roof")
+time.sleep(0.5); print("2. Smash corpses into the windows")
+time.sleep(0.5); print("3. Push corpses out of the windows")
+time.sleep(0.5); print("4. END IT ALL")
+choice5 = input("[INPUT] ").upper()
+
+
+#---START OF CHOICE SET 5
+if choice5 == "E":
+	sys.exit()
+
+if choice5 == "1":
+	print("You drag 3 corpses to the roof, throwing them off. Everyone screams in fear and disgust.")
+
+if choice5 == "2":
+	print("You smash corpses into the window, hard as you can, until blood splatters onto the windows.. [Fun right?]")
+
+if choice5 == "3":
+	print("You break windows using the stock of the gun. Pushing corpses out.")
+
+if choice5 == "4":
+	print("You point the gun at your temple. The gun goes off...")
+	sys.exit()
+#--END OF CHOICE SET 5---
