@@ -174,5 +174,5 @@ if choice6 == "3":
 	print("You and your partner decide that is time... You and your partner pulls out the homemade poisions... 'Farewell...' you say to your partner...")
 	print("THE CANON ENDING")
 	print("UNLOCKED: https://shorturl.at/rrB0q | DEVELOPER'S JOURNAL")
-	sys.exit()
 	
+print("This game is dedicated to Dylan Klebolds, the Abandoned Shepherd of Truth. Eric Harris, the Showman of Truth.”)
