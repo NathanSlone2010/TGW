@@ -30,8 +30,7 @@ print("\nRest in Peace Eric Harris, Dylan Klebolds.")
 time.sleep(0.5); print("Copyright Void Studios 2026")
 
 
-print("START GAME? Y/N")
-game = input("INPUT: ").upper()
+game = input("START GAME? Y/N: ").upper()
 if game == "Y":
 	print("STARTING GAME...")
 elif game == "N":
@@ -43,7 +42,7 @@ elif game not in ["Y", "N"]:
 
 #---START OF CHOICE SET 1---
 while True:
-	print("\n'Yo, bro! You good? Blanked out there, for a second")
+	print("\n'Yo, bro! You good? Blanked out there, for a second'")
 	time.sleep(0.5); print("1. Say 'Yeah. Day dreamed a bit'")
 	time.sleep(0.5); print("2. Say 'No...'")
 	time.sleep(0.5); print("3. Say nothing")
@@ -71,7 +70,7 @@ while True:
 
 	elif choice1 not in ["1", "2", "3"]:
 		print("Relaunch the game when you are READY? WHY ARE YOU NOT READY IF YOU LAUNCHED THE GAME?????????????")
-		print("BE FUCKING READY NEXT TIME " * 50)
+		print("BE FUCKING READY NEXT TIME " * 5)
 		break
 #---END OF CHOICE SET 1---
 
@@ -112,7 +111,7 @@ while True:
 	choice3 = input("INPUT: ").upper()
 
 	if choice3 == "Y":
-		print("'Thanks for letting me come over, Mrs. Eric... Yo bro, want to order some food? I will pay' [Y/N]")
+		print("'Thanks for letting me come over, Mrs. Harris... Yo bro, want to order some food? I will pay' [Y/N]")
 		inchoice3 = input("[INPUT] ").upper()
 		if inchoice3 == "Y":
 			print("[YOU] Sure. Thanks for paying. I'll get next time... 'Alright. Only chinese and the pizza place is open..")
@@ -127,8 +126,32 @@ while True:
 				print("FINE, SKIP DIALOGUE [WHICH IS THE GAME ITSELF DUMBASS]")
 		if inchoice3 == "N":
 			print("'Alright, but I am hungry. Care if I get a snack?'")
-	break
+		break
 	if choice3 == "N":
 		print("You and Dylan goes to the park... Next day arrives quickly")
 		break
 #---END OF CHOICE SET 3---
+
+
+#--START OF CHOICE SET 4---
+while True:
+	print("\nYou and Dylan is in the basement. Playing pool... 'How many rounds should we get from the seller? Since the guns are for the range, we should not need much, right?'")
+	print("1. Single Box [CRINGE]")
+	print("2. A few Boxes")
+	print("3. Enough for a massacre")
+	choice4 = input("INPUT: ").upper()
+
+	if choice4 == "1":
+		print("[YOU] A single box should be fine. Can't over-do it, ya'know?")
+		break
+
+	if choice4 == "2":
+		print("[YOU] Just a few. Enough to last a while..")
+		break
+
+	if choice4 == "3":
+		print("'And how much exactly is that?")
+		numchoice4 = input("[INPUT NUMBER] ")
+		print(f"Alright, {numchoice4} it is, then'")
+		break
+#---END OF CHOICE SET 4---
