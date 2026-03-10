@@ -9,18 +9,18 @@ time.sleep(1); print("NO ERRORS\n")
 #If users see this, the program has no issues
 
 
-os = platform.system()
-if os == "Windows":
+current_os = platform.system()
+if current_os == "Windows":
 	print("OPERATING SYSTEM OWNER: MICROSOFT | WINDOWS-OS\n")
-elif os == "Darwin":
+elif current_os == "Darwin":
 	print("OPERATING SYSTEM OWNER: APPLE COMPUTERS, INC. | MACOS\n")
-elif os == "Linux":
+elif current_os == "Linux":
 	print("OPERATING SYSTEM OWNER: OPEN SOURCE OS | LINUX KERNEL\n")
-elif os in ["FreeBSD", "NetBSD", "OpenBSD"]:
+elif current_os in ["FreeBSD", "NetBSD", "OpenBSD"]:
 	print("OPERATING SYSTEM OWNER: OPEN SOURCE OS | BSD\n")
-elif os == "iOS":
+elif current_os == "iOS":
 	print("OPERATING SYSTEM OWNER: APPLE COMPUTERS, INC. | iOS\n")
-elif os not in ["Windows", "Darwin", "Linux", "OpenBSD", "NetBSD", "FreeBSD"]:
+elif current_os not in ["Windows", "Darwin", "Linux", "OpenBSD", "NetBSD", "FreeBSD"]:
 	print("UKNOWN OPERATING SYSTEM || REPORT YOUR OPERATING SYSTEM TO DEVELOPER FOR INTEGRATION.")
 #OS-recognition of users
 
@@ -40,7 +40,7 @@ elif game not in ["Y", "N"]:
 	print("STARTING GAME ANYWAYS, NUMBNUTS.")
 
 
-#---START OF CHOICE SET 1---
+#---START OF CHOICE SET 1: INDUCTION---
 while True:
 	print("\n'Yo, bro! You good? Blanked out there, for a second'")
 	time.sleep(0.5); print("1. Say 'Yeah. Day dreamed a bit'")
@@ -75,7 +75,7 @@ while True:
 #---END OF CHOICE SET 1---
 
 
-#--START OF CHOICE SET 2---
+#--START OF CHOICE SET 2: REASONS---
 while True:
 	print("\nDay at school goes by slowly. Faraemein High School... School of hell..")
 	print("1. Eat in the cafeteria")
@@ -105,7 +105,7 @@ while True:
 #---END OF CHOICE SET 2---
 
 
-#---START OF CHOICE SET 3---
+#---START OF CHOICE SET 3: HOME---
 while True:
 	print("\nIt is the end of the day. Do you and Dylan go to your house? [Y/N]")
 	choice3 = input("INPUT: ").upper()
@@ -133,7 +133,7 @@ while True:
 #---END OF CHOICE SET 3---
 
 
-#--START OF CHOICE SET 4---
+#--START OF CHOICE SET 4: RISE---
 while True:
 	print("\nYou and Dylan is in the basement. Playing pool... 'How many rounds should we get from the seller? Since the guns are for the range, we should not need much, right?'")
 	print("1. Single Box [CRINGE]")
@@ -155,3 +155,32 @@ while True:
 		print(f"Alright, {numchoice4} it is, then'")
 		break
 #---END OF CHOICE SET 4---
+
+
+#---START OF CHOICE SET 5: DELIVERY---
+while True:
+	print("\nDelivery arrives.. Looking at the stuff in your room, you are feeling quite satisfied. You and Dylan goes to the range, what to practice first?")
+	print("1. AIM")
+	print("2. Firing under timers")
+	print("3. Nothing for today")
+	choice5 = input("INPUT: ").upper()
+
+	if choice5 == "1":
+		print("'Aim is very important.... Alright, hop to, I guess..'")
+		break
+
+	if choice5 == "2":
+		print("Timed firing, perfect, no sarcasm, we do need to practice that!")
+		break
+
+	if choice5 == "3":
+		print("'Really? After waiting so long of waiting for these guns and ammunition?' [Y/N]")
+		inchoice5 = input("[INPUT] ").upper()
+
+		if inchoice5 == "Y":
+			print("[YOU] Yeah, not feelung so well..")
+			break
+		if inchoice5 == "N":
+			print("[YOU] I change my mind, let's get to practicing our aim for today.")
+			break
+#---END OF CHOICE SET 5---
