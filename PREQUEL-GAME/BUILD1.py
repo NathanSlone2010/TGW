@@ -20,8 +20,11 @@ elif current_os in ["FreeBSD", "NetBSD", "OpenBSD"]:
 	print("OPERATING SYSTEM OWNER: OPEN SOURCE OS | BSD\n")
 elif current_os == "iOS":
 	print("OPERATING SYSTEM OWNER: APPLE COMPUTERS, INC. | iOS\n")
+elif current_os == "Android":
+	print("OPERATING SYSTEM OWNER: GOOGLE, INC | Linux Kernel")
 elif current_os not in ["Windows", "Darwin", "Linux", "OpenBSD", "NetBSD", "FreeBSD"]:
 	print("UKNOWN OPERATING SYSTEM || REPORT YOUR OPERATING SYSTEM TO DEVELOPER FOR INTEGRATION.")
+
 #OS-recognition of users
 
 
@@ -75,9 +78,9 @@ while True:
 #---END OF CHOICE SET 1---
 
 
-#--START OF CHOICE SET 2: REASONS---
+#--START OF CHOICE SET 2: REASON---
 while True:
-	print("\nDay at school goes by slowly. Faraemein High School... School of hell..")
+	print("\nDay at school goes by slowly. Menalina High School... School of hell..")
 	print("1. Eat in the cafeteria")
 	print("2. Eat at the staircase")
 	print("3. Don't eat today")
@@ -184,3 +187,28 @@ while True:
 			print("[YOU] I change my mind, let's get to practicing our aim for today.")
 			break
 #---END OF CHOICE SET 5---
+
+
+#---START OF CHOICE SET 6: DESECRATION---
+while True:
+	print("Menalina. Menalina. MEnalina. MENalina. MENAlina. MENALina. MENALIna. MENALINa. MENALINA MELNILA")
+	print("1. OPEn fIRE")
+	print("2222 WArtvh Thekm BKLEED")
+	print("DyLSAN MYURDER THGENM ALL")
+	choice6 = input("InRHGJ: ").upper()
+
+	if choice6 == "1":
+		print("FIRE FIRE FIRE FIRE " * 5)
+		inchoice = input("[BlOD] ").upper()
+		if inchoice == "BLOOD":
+			print("BLOOD BLOOD BLOOD BLOOD BLOOD")
+			break
+
+	if choice6 == "2":
+		print("THEY BLEED THEY BLEED THEY BNLLEEDD")
+		break
+
+	if choice6 == "3":
+		print("DYLAN FIRE FIRE DDLLYYAANN FFIIRREE DDDLLLYYYAAANNN FFFIIIRRREEE")
+		break
+#--END OF CHOICE SET 6---
